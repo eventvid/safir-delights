@@ -11,8 +11,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "picsum.photos",
       },
-      // Add your own storage domain here, e.g. Supabase Storage:
-      // { protocol: "https", hostname: "*.supabase.co" },
+      {
+        protocol: "https",
+        hostname: "cksnkkhreibhczdfikmb.supabase.co",
+      },
     ],
   },
 };
